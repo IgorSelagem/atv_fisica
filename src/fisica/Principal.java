@@ -14,7 +14,7 @@ public class Principal {
 		MRUV mruv = new MRUV();
 		velocidadeMedia veloMed = new velocidadeMedia();
 		
-		System.out.println("Qual é o peso de um corpo (em kg):");
+		System.out.println("Qual é o peso de um corpo (em kg): ");
 		forcaPeso.massa = teclado.nextFloat();
 		System.out.println("Qual a gravidade?");
 		forcaPeso.gravidade = teclado.nextFloat();
