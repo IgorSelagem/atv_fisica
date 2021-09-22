@@ -50,7 +50,7 @@ public class Principal {
 		veloMed.tempoFinal = teclado.nextFloat();
 		System.out.printf("A velocidade média calculada foi: %s m/s \n", veloMed.calcularVelocidadeMedia());
 		
-		System.out.println("----------------------------------");
+		System.out.println("-----------------------------------");
 		
 		System.out.println("O movimento retilíneo uniforme se da por duas informações, posição e tempo, portanto digite a posição:");
 		mru.posicaoMRU = teclado.nextFloat();
