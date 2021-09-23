@@ -20,7 +20,7 @@ public class Principal {
 		forcaPeso.gravidade = teclado.nextFloat();
 		System.out.printf("O peso é: %s KG\n", forcaPeso.calcularForcaPeso());
 		
-		System.out.println("---------------------------------- ");
+		System.out.println("----------------------------------");
 		
 		System.out.println("Para saber o impulso de um objeto, precisamos de algumas informações, sendo ela a Força Média, digite-a abaixo");
 		imp.forcaMedia = teclado.nextFloat();
