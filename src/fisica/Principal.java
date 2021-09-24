@@ -36,7 +36,7 @@ public class Principal {
 		forcaElas.forcaEL = teclado.nextFloat();
 		System.out.printf("A força elástica de um objeto é: %s \n", forcaElas.calcularForcaElastica());
 		
-		System.out.println("----------------------------------");
+		System.out.println("-----------------------------------");
 		
 		System.out.println("A velocidade média de um objeto é calculada através de alguns fatores, dentre eles esta a posição e o tempo, inicial e final, conforme o programa pedir, insira os valores para calcular a velocidade média:");
 		System.out.println("-");
