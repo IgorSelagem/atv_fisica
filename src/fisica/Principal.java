@@ -20,7 +20,7 @@ public class Principal {
 		forcaPeso.gravidade = teclado.nextFloat();
 		System.out.printf("O peso é: %s KG\n", forcaPeso.calcularForcaPeso());
 		
-		System.out.println("----------------------------------");
+		System.out.println("");
 		
 		System.out.println("Para saber o impulso de um objeto, precisamos de algumas informações, sendo ela a Força Média, digite-a abaixo");
 		imp.forcaMedia = teclado.nextFloat();
@@ -28,7 +28,7 @@ public class Principal {
 		imp.intTempo = teclado.nextFloat();
 		System.out.printf("A força total de impulso total é: %s kg/f \n", imp.calcularforcaImpulso());
 		
-		System.out.println("----------------------------------");
+		System.out.println("");
 		
 		System.out.println("Para sabermos a força elástica, precisamos da constante e variavel, digite a constante:");
 		forcaElas.constanteK = teclado.nextFloat();
@@ -36,7 +36,7 @@ public class Principal {
 		forcaElas.forcaEL = teclado.nextFloat();
 		System.out.printf("A força elástica de um objeto é: %s \n", forcaElas.calcularForcaElastica());
 		
-		System.out.println("-----------------------------------");
+		System.out.println("");
 		
 		System.out.println("A velocidade média de um objeto é calculada através de alguns fatores, dentre eles esta a posição e o tempo, inicial e final, conforme o programa pedir, insira os valores para calcular a velocidade média:");
 		System.out.println("-");
@@ -50,7 +50,7 @@ public class Principal {
 		veloMed.tempoFinal = teclado.nextFloat();
 		System.out.printf("A velocidade média calculada foi: %s m/s \n", veloMed.calcularVelocidadeMedia());
 		
-		System.out.println("-----------------------------------");
+		System.out.println("");
 		
 		System.out.println("O movimento retilíneo uniforme se da por duas informações, posição e tempo, portanto digite a posição:");
 		mru.posicaoMRU = teclado.nextFloat();
@@ -58,7 +58,7 @@ public class Principal {
 		mru.tempoMRU = teclado.nextFloat();
 		System.out.printf("O resultado final é:%s s \n",mru.calcularMRU());
 		
-		System.out.println("-------------------");
+		System.out.println("");
 		
 		System.out.println("Para sabermos o MRUV, inicialmente precisamos da velocidade inicial, portanto digite-a:");
 		mruv.velocidadeInicialMRUV = teclado.nextFloat();
